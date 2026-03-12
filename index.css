@@ -63,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/image.png);
+    background-image: url("/image.png");
 }
 #forty{
     /* border: 1px solid grey; */
@@ -150,4 +150,5 @@
 #forty>#con:hover{
     transform: scale(1.05);
     transition: 0.6s ease-in-out;
+
 }
