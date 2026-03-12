@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+            gap: 500px;
+            padding: 200px;
+            min-height: 100vh;
+            background-color:rgb(219, 219, 200);
+        }
+        #con2{
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 3px 3px 5px gray;
+            border-radius: 5px;
+        }
+
+        #con2 img{
+            border: 3px solid rgb(206, 206, 206);
+            height: 300px;
+            width: 300px;
+            box-shadow: 2px 2px 5px gray;
+            position: absolute;
+            left: -300px;
+            animation: me 2s forwards;
+        }
+
+        @keyframes me{
+            from{
+                left: 600px;
+            }
+            to{
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="contact">
+    <div id="con1">
+        <h1>Contact Me</h1>
+
+    <p>Email: praveenmacharla73@gmail.com</p>
+    <p>Phone: +91 6301369820</p>
+
+    <form>
+        <input type="text" placeholder="Your Name"><br><br>
+        <input type="email" placeholder="Your Email"><br><br>
+        <textarea placeholder="Your Message"></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+    </div>
+    <div id="con2">
+        <img src="/mee.jpeg" alt="">
+    </div>
+</section>
+</body>
+</html>

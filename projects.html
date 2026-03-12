@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:white;
+        }
+        #projects{
+            padding:100px;
+            min-height:100vh;
+            text-align:center;
+            background-color: rgb(219, 219, 200);
+        }
+
+        .project{
+            background:white;
+            padding:25px;
+            margin:30px auto;
+            width:60%;
+            border-radius:10px;
+            box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .project img{
+            width:100%;
+            height:500px;
+            object-fit:cover;
+            border-radius:8px;
+            margin-bottom:15px;
+        }
+    </style>
+</head>
+<body>
+    <section id="projects">
+    <h1>My Projects</h1>
+
+    <div class="project">
+        <img src="/co2.png" alt="Project Image">
+
+        <h3>CO2 Emission Prediction using Machine Learning</h3>
+
+        <p>
+        Developed a machine learning based system to estimate CO₂ emissions using Air Quality Index (AQI) data. 
+        The project involved data collection, preprocessing, and applying machine learning algorithms such as 
+        Linear Regression and Random Forest to predict emission levels. A web interface was created using 
+        Flask and Streamlit to allow users to input data and visualize prediction results using interactive graphs.
+        </p>
+    </div>
+
+    <div class="project">
+        <img src="/iot.jpg" alt="Project Image">
+
+        <h3>IoT Voice-Assisted Smart Charger</h3>
+
+        <p>
+        Developed an IoT-enabled smart charger that provides voice notifications for charging updates such 
+        as battery full, low battery, and abnormal power conditions. The system allows users to monitor 
+        charging status remotely using IoT communication protocols and embedded programming to 
+        improve device safety and user convenience.
+        </p>
+    </div>
+
+</section>
+</body>
+</html>
