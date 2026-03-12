@@ -63,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('image.png');
+    background-image: url(iot.jpg);
 }
 #forty{
     /* border: 1px solid grey; */
@@ -152,5 +152,6 @@
     transition: 0.6s ease-in-out;
 
 }
+
 
 
